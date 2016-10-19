@@ -2,7 +2,7 @@
 
 A Bazel plugin for VSCode.
 
-This plugin provides syntax highlighting Bazel for `BUILD` and `WORKSPACE`
-files.
+This plugin provides syntax highlighting for Bazel `BUILD` and `WORKSPACE`
+files. See [bazel.io](https://www.bazel.io/) for more information about Bazel.
 
-See [bazel.io](https://www.bazel.io/).
+[marketplace.visualstudio.com/bazel-code](https://marketplace.visualstudio.com/items?itemName=DevonDCarew.bazel-code)
