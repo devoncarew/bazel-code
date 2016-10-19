@@ -3,7 +3,7 @@
 	"displayName": "Bazel",
 	"description": "Bazel support for Visual Studio Code.",
   "version": "0.1.0",
-  "publisher": "Devon Carew",
+  "publisher": "DevonDCarew",
   "engines": {
     "vscode": "^1.4.0"
   },
