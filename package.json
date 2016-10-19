@@ -2,7 +2,7 @@
     "name": "bazel-code",
     "displayName": "Bazel",
     "description": "Bazel support for Visual Studio Code.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "DevonDCarew",
     "license": "SEE LICENSE IN LICENSE",
     "engines": {
@@ -15,7 +15,7 @@
         "type": "git",
         "url": "https://github.com/devoncarew/bazel-code.git"
     },
-	"icon": "media/bazel-logo.png",
+    "icon": "media/bazel-logo.png",
     "activationEvents": [
         "onLanguage:bazel"
     ],
