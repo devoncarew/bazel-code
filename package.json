@@ -15,6 +15,7 @@
         "type": "git",
         "url": "https://github.com/devoncarew/bazel-code.git"
     },
+	"icon": "media/bazel-logo.png",
     "activationEvents": [
         "onLanguage:bazel"
     ],
