@@ -45,7 +45,17 @@
                 "scopeName": "source.regexp.python",
                 "path": "./syntax/MagicRegExp.tmLanguage.json"
             }
-        ]
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Bazel Configuration",
+            "properties": {
+                "bazel.buildifierPath": {
+                    "type": "string",
+                    "description": "The path to buildifer."
+                }
+            }
+        }
     },
     "scripts": {
         "vscode:prepublish": "./node_modules/typescript/bin/tsc -p ./",
