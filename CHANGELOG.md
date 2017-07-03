@@ -1,4 +1,4 @@
-## 0.1.5
+## 0.1.6
 - add syntax highlighting for `BUILD.*` files
 
 ## 0.1.4

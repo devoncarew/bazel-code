@@ -2,7 +2,7 @@
     "name": "bazel-code",
     "displayName": "Bazel",
     "description": "Bazel support for Visual Studio Code.",
-    "version": "0.1.4",
+    "version": "0.1.6",
     "publisher": "DevonDCarew",
     "license": "SEE LICENSE IN LICENSE",
     "engines": {
@@ -27,11 +27,11 @@
                 "extensions": [
                     ".bzl"
                 ],
-                "filenames":[
+                "filenames": [
                     "BUILD",
                     "WORKSPACE"
                 ],
-                "filenamePatterns" : [
+                "filenamePatterns": [
                     "BUILD.*"
                 ],
                 "aliases": [
@@ -72,6 +72,6 @@
         "@types/node": "^6.0.40",
         "mocha": "^2.3.3",
         "typescript": "^2.2.1",
-		"vscode": "^1.1.0"
+        "vscode": "^1.1.0"
     }
 }
