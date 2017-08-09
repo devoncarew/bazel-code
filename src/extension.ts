@@ -2,6 +2,9 @@
 
 import * as vscode from 'vscode';
 import cp = require('child_process');
+import which = require('which');
+
+const MISSING_BUILDIFIER_MESSAGE = 'Bazel buildifier was not found; install it or set the "bazel.buildifierPath" setting to use the formatter.';
 
 export function activate(context: vscode.ExtensionContext) {
     vscode.languages.registerDocumentFormattingEditProvider('bazel', {
@@ -10,8 +13,13 @@ export function activate(context: vscode.ExtensionContext) {
                 document.save().then(() => {
                     let buildifierPath = vscode.workspace.getConfiguration('bazel')['buildifierPath'];
                     if (!buildifierPath) {
-                        vscode.window.showInformationMessage("Set the 'bazel.buildiferPath' setting to use the formatter.");
-                        return reject('You must set bazel.buildiferPath to use the formatting.');
+                        try {
+                            buildifierPath = which.sync('buildifier');
+                        } catch (err) { }
+                    }
+                    if (!buildifierPath) {
+                        vscode.window.showInformationMessage(MISSING_BUILDIFIER_MESSAGE);
+                        return reject(MISSING_BUILDIFIER_MESSAGE);
                     }
 
                     cp.execFile(buildifierPath, ["-mode=fix", document.fileName], {},
