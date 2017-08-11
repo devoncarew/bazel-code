@@ -1,3 +1,6 @@
+## 0.1.7
+- use `which` to try and locate buildifier when formatting
+
 ## 0.1.6
 - add syntax highlighting for `BUILD.*` files
 
