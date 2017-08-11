@@ -1,4 +1,4 @@
-## 0.1.7
+## 0.1.8
 - use `which` to try and locate buildifier when formatting
 
 ## 0.1.6
