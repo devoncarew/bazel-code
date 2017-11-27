@@ -29,10 +29,8 @@
                 ],
                 "filenames": [
                     "BUILD",
+                    "BUILD.bazel",
                     "WORKSPACE"
-                ],
-                "filenamePatterns": [
-                    "BUILD.*"
                 ],
                 "aliases": [
                     "Bazel"
