@@ -25,7 +25,8 @@
             {
                 "id": "bazel",
                 "extensions": [
-                    ".bzl"
+                    ".bzl",
+                    ".BUILD"
                 ],
                 "filenames": [
                     "BUILD",
