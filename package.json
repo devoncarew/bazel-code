@@ -9,7 +9,8 @@
         "vscode": "^1.13.0"
     },
     "categories": [
-        "Languages"
+        "Languages",
+        "Snippets"
     ],
     "repository": {
         "type": "git",
@@ -58,7 +59,13 @@
                     "description": "The path to buildifer."
                 }
             }
-        }
+        },
+        "snippets": [
+            {
+                "language": "bazel",
+                "path": "./snippets/bazel.json"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "./node_modules/typescript/bin/tsc -p ./",
