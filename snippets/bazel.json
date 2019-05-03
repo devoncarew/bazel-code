@@ -48,7 +48,7 @@
 			"\tname = \"${1:rule unique name}\",",
 			"\tsrcs = [\"${2:source files}\"],",
 			"\thdrs = [\"${3:header files}\"],",
-			"\tdeps = [\"${3:libraries to be linked}\"],",
+			"\tdeps = [\"${4:libraries to be linked}\"],",
 			")"
 		],
 		"description": "c/c++ library target"
