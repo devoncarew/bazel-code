@@ -2,7 +2,7 @@
     "name": "bazel-code",
     "displayName": "Bazel",
     "description": "Bazel support for Visual Studio Code.",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "publisher": "DevonDCarew",
     "license": "SEE LICENSE IN LICENSE",
     "engines": {
@@ -32,7 +32,8 @@
                 "filenames": [
                     "BUILD",
                     "BUILD.bazel",
-                    "WORKSPACE"
+                    "WORKSPACE",
+                    "WORKSPACE.bazel"
                 ],
                 "aliases": [
                     "Bazel"
