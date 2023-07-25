@@ -1,5 +1,7 @@
 ## 0.2.0
 
+- Update the extension to a modern VS Code extension config
+- require VS Code runtime version `1.75.0`
 - remove the (buildifier based) bazel format command
 
 ## 0.1.9
