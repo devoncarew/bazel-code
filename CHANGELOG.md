@@ -1,4 +1,9 @@
+## 0.2.0
+
+- remove the (buildifier based) bazel format command
+
 ## 0.1.9
+
 - no longer use a wildcard pattern to match build filed (`BUILD.*`) (@Helcaraxan)
 - add support for `.bzl` and `.BUILD` file names (@damienpontifex)
 - add several Bazel related snippets (@damienpontifex)
