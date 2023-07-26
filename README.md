@@ -1,5 +1,13 @@
 # bazel-code
 
+## Status: discontinued
+
+Note: this extension has been discontinued. We recommend you instead try the
+[Bazel](https://marketplace.visualstudio.com/items?itemName=BazelBuild.vscode-bazel)
+extension from the Bazel team.
+
+## Documentation
+
 A Bazel plugin for VSCode.
 
 This plugin provides basic syntax highlighting for Bazel `BUILD` and `WORKSPACE`
