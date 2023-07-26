@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Updated the readme to indicate that this extension has been discontinued.
+
 ## 0.2.0
 
 - Update the extension to a modern VS Code extension config

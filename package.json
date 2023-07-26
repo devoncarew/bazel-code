@@ -2,7 +2,7 @@
     "name": "bazel-code",
     "displayName": "Bazel",
     "description": "Bazel support for Visual Studio Code.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "DevonDCarew",
     "license": "SEE LICENSE IN LICENSE",
     "engines": {
